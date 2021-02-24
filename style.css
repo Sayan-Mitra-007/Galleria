@@ -1,0 +1,21 @@
+img {
+    border: 1px solid #ddd; 
+    border-radius: 4px;  
+    padding: 5px; 
+    width: 200px;
+	height: 200px;
+}
+
+img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.searchbar {
+  background-position: 10px 12px; 
+  background-repeat: no-repeat; 
+  width: 100%; 
+  font-size: 16px; 
+  padding: 12px 20px 12px 40px; 
+  border: 1px solid #ddd; 
+  margin-bottom: 12px; 
+}

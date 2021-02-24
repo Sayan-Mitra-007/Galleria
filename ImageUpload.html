@@ -1,0 +1,31 @@
+<html>
+<head>
+<title>Image Upload</title>
+</head>
+<body>
+<center>
+<h1><i>Galleria</i></h1>
+</center>
+<div style="position:absolute;left:85%;top:5%;right:5%">
+<a href="ViewImages.xqy"><input type="button" value="View Images"/></a>
+</div>
+<div style="position:absolute;left:0%;top:0%;right:82%;bottom:0%;background-color:#b2beb5;">
+</div>
+<div style="position:absolute;left:30%;top:10%;right:30%;background-color:#FFFDD0">
+<div align="center">
+<h1><b>Upload Image</b></h1>
+<form action="upload.xqy" method="post" enctype="multipart/form-data">
+ <h2><label for="name">Name:</label></h2>
+ <input type="text" name="name" id="name" required /><br/>
+ <h2><label for="creator">Creator:</label></h2>
+ <input type="text" name="creator" id="creator" required /><br/>
+ <h2><label for="resolution">Resolution:</label></h2>
+ <input type="text" name="resolution" id="resolution" required /><br/>
+ <h2><label for="img">Select image:</label></h2>
+ <input type="file" id="img" name="img" accept="image/*" required /><br/><br/>
+ <input type="submit"/>
+</form>
+</div>
+</div>
+</body>
+</html>
